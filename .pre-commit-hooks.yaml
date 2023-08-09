@@ -1,0 +1,5 @@
+- id: block-ldnoobw
+  name: Block List of Dirty Naughty Obscene and Otherwise Bad Words
+  description: This hook blocks a commit if it contains any words included in LDNOOBW. The language can be specified.
+  entry: block-ldnoobw
+  types: [text]
