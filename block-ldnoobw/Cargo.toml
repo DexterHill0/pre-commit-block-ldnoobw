@@ -1,0 +1,10 @@
+[package]
+name = "block-ldnoobw"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+globmatch = "0.2.4"
+curl = "0.4.44"
+regex = "1.9.3"

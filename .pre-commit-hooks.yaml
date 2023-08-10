@@ -1,5 +1,6 @@
 - id: block-ldnoobw
-  name: Block List of Dirty Naughty Obscene and Otherwise Bad Words
+  name: Block words in LDNOOBW
   description: This hook blocks a commit if it contains any words included in LDNOOBW. The language can be specified.
   entry: block-ldnoobw
+  language: rust
   types: [text]
